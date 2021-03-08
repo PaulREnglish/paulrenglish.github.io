@@ -23,13 +23,13 @@ nav{
 	display: flex;
 	background: #E5E2DE;
 	height: 50px;
-	align-items: center;
 	justify-content: space-between;
 
 }
 
-nav div{
+nav > div{
 	display: flex;
+	align-items: center;
 }
 
 
@@ -53,7 +53,7 @@ header{
 
 img{
 	position: absolute;
-	height: 500px;
+	height: 800px;
 	z-index: -1;
 	
 }
@@ -61,8 +61,17 @@ img{
 
 header > div{
 	width: 750px;
-	color: yellow;
+	color: #FEE6D3;
+	/*font-weight: bold;*/
 	
 }
 
+h2{
+	margin: 0;
+}
 
+
+.titleBackgroundFooter{
+	display: flex;
+	justify-content: center;
+}
