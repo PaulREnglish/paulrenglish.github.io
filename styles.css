@@ -7,6 +7,17 @@ html{
 }
 
 
+body{
+	display: flex;
+	justify-content: center;
+}
+
+body > div{
+	width: 2000px;
+}
+
+
+
 
 nav{
 	display: flex;
