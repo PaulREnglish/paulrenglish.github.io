@@ -6,7 +6,7 @@ html{
 	font-size: 20px;
 }
 
-
+/* centers the webpage */
 body{
 	display: flex;
 	justify-content: center;
@@ -17,46 +17,61 @@ body > div{
 }
 
 
-
-
+/* navbar section*/
 nav{
 	display: flex;
 	background: #E5E2DE;
 	height: 50px;
+	margin: 10px 0;
 	justify-content: space-between;
-
+	align-items: center;
+	
 }
+
 
 nav > div{
 	display: flex;
-	align-items: center;
+	
 }
 
 
 .navigation{
 	padding: 5px;
-	border: 2px solid #777674;
+	
 	margin: 5px;
 		
 }
 
+.navBorder{
+	border: 2px solid #777674;
+}
+
+.navSmallScreen{
+	display: none;
+}
+
+
+
+/* title and about me section*/
 header{
 	display: flex;
-	height: 800px;
+	/*height: 800px;*/
 	justify-content: center;
 	align-items: center;
-	/*background-image: url("titleBackground.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;*/
+	padding: 180px 0;
+	margin: 0 25px;
+	background-image: url("titleBackground2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
-img{
+/*header > img{
 	position: absolute;
-	height: 800px;
+	height: 100%;
 	z-index: -1;
-	
-}
+
+}*/
 
 
 header > div{
@@ -75,3 +90,61 @@ h2{
 	display: flex;
 	justify-content: center;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 850px){
+	
+	html{
+		font-size: 13px;
+	}
+	
+	.navLargeScreen{
+		display: none;
+	}
+	.navSmallScreen{
+		display: flex;
+		
+	}
+	
+	body > div{
+		width: 100%;
+	}
+	
+	
+	.navigation{
+		height: 25px;
+		padding: 1px;
+		margin: 1px;
+		
+	}
+
+	.navBorder{
+		border: 1px solid #777674;
+	}
+	
+	nav{
+		height: 30px;
+	}
+	
+	header{
+		margin: 0 5px;
+	}
+	
+	header > div{
+		width: 200px;
+	}
+	
+	
+	
+	p{
+		font-size: 1.2rem;
+	}
+	
+	
+}
+
