@@ -21,7 +21,7 @@ body > div{
 nav{
 	display: flex;
 	background: #E5E2DE;
-	height: 50px;
+	height: 60px;
 	margin: 10px 0;
 	justify-content: space-between;
 	align-items: center;
