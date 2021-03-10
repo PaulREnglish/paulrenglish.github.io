@@ -155,7 +155,7 @@ main{
 }
 
 
-.projectImage > img{
+.projectImage img{
 	display: block;
 	max-width: 240px;
 	max-height: 240px;
