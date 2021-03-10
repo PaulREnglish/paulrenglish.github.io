@@ -7,13 +7,14 @@ html{
 }
 
 /* centers the webpage */
-body{
+/*body{
 	display: flex;
 	justify-content: center;
-}
+}*/
 
-body > div{
-	width: 1500px;
+.container {
+	width: 1600px;
+	margin: 0 auto;
 }
 
 
@@ -52,10 +53,10 @@ nav > div{
 
 
 
-/* title and about me section*/
+/* title section*/
 header{
 	display: flex;
-	/*height: 800px;*/
+	height: 700px;
 	justify-content: center;
 	align-items: center;
 	padding: 180px 0;
@@ -81,9 +82,6 @@ header > div{
 	
 }
 
-h2{
-	margin: 0;
-}
 
 
 .titleBackgroundFooter{
@@ -96,6 +94,87 @@ h2{
 
 
 
+h1{
+	font-size: 3.0rem;
+}
+
+
+/* About me section*/
+
+.aboutMe{
+	margin: 100px 100px;
+}
+
+
+
+h2{
+	margin: 0;
+}
+
+
+/*Projects section*/
+
+main{
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+
+.projectsSection > h2 {
+	text-align: center;
+	padding: 20px;
+
+}
+
+
+
+
+.projectsSection > div{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+	
+}
+
+
+.project{
+	width: 240px;
+	margin: 30px 20px;
+}
+
+
+
+.projectImage{
+	height: 240px;
+	width: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+
+.projectImage > img{
+	display: block;
+	max-width: 240px;
+	max-height: 240px;
+	
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1600px){
+	
+	.container{
+		width: 100%;
+	}
+
+
+}
 
 @media only screen and (max-width: 850px){
 	
@@ -111,10 +190,7 @@ h2{
 		
 	}
 	
-	body > div{
-		width: 100%;
-	}
-	
+
 	
 	.navigation{
 		height: 25px;
@@ -135,16 +211,47 @@ h2{
 		margin: 0 5px;
 	}
 	
-	header > div{
-		width: 200px;
+	h1{
+		font-size: 2.5rem;
+		margin: 30px;
 	}
 	
 	
+	.aboutMe{
+		margin: 70px 30px;
+	}
 	
 	p{
 		font-size: 1.2rem;
 	}
 	
 	
+	main{
+		width: 100%;
+	}	
 }
+
+
+
+
+@media only screen and (max-width: 300px){
+
+	
+	.aboutMe{
+		margin: 50px 20px;
+	}
+	
+	
+	.project{
+		margin: 30px 0;
+	}
+
+
+
+}
+
+
+
+
+
 
