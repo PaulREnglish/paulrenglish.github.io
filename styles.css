@@ -168,8 +168,9 @@ main{
 .contactMe{
 	display: flex;
 	background: #E5E2DE;
-	height: 50px;
-	align-items: center;
+	height: 100px;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .contactMe > div{
