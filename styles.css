@@ -58,7 +58,9 @@ nav > div{
 	color: #000000;
 }
 
-
+.navigation > a:link{
+	color: #000000;
+}
 
 
 
