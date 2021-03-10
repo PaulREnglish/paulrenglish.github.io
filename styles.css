@@ -24,7 +24,7 @@ nav{
 	background: #E5E2DE;
 	height: 60px;
 	margin: 10px 0;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	
 }
@@ -46,11 +46,6 @@ nav > div{
 .navBorder{
 	border: 2px solid #777674;
 }
-
-.navSmallScreen{
-	display: none;
-}
-
 
 
 /* title section*/
@@ -109,6 +104,7 @@ h1{
 
 h2{
 	margin: 0;
+	font-size: 2.0rem;
 }
 
 
@@ -196,15 +192,7 @@ main{
 		font-size: 13px;
 	}
 	
-	.navLargeScreen{
-		display: none;
-	}
-	.navSmallScreen{
-		display: flex;
-		
-	}
 	
-
 	
 	.navigation{
 		height: 25px;
