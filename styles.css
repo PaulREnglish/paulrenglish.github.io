@@ -164,6 +164,19 @@ main{
 
 
 
+/*Contact me section*/
+.contactMe{
+	display: flex;
+	background: #E5E2DE;
+	height: 50px;
+	align-items: center;
+}
+
+.contactMe > div{
+	margin-left: 30px;
+	font-size: 1.2rem;
+}
+
 
 
 
@@ -245,8 +258,14 @@ main{
 	.project{
 		margin: 30px 0;
 	}
+	
+	.contactMe{
+		height: 70px;
+	}
 
-
+	.contactMe > div{
+		margin-left: 5px;
+	}
 
 }
 
