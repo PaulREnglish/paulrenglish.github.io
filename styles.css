@@ -30,6 +30,8 @@ nav{
 }
 
 
+
+
 nav > div{
 	display: flex;
 	
@@ -46,6 +48,18 @@ nav > div{
 .navBorder{
 	border: 2px solid #777674;
 }
+
+
+.navigation > a{
+	text-decoration: none;
+}
+
+.navigation > a:visited{
+	color: #000000;
+}
+
+
+
 
 
 /* title section*/
@@ -195,7 +209,6 @@ main{
 	
 	
 	.navigation{
-		height: 25px;
 		padding: 1px;
 		margin: 1px;
 		
