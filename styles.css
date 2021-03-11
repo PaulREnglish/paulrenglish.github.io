@@ -36,7 +36,7 @@ nav {
 
 .navigation > a {
 	text-decoration: none;
-	color: #0;
+	color: #000000;
 }
 
 /* title section*/
@@ -102,11 +102,9 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
 }
 
 .projectImage img {
-	display: block;
 	max-width: 240px;
 	max-height: 240px;
 	
@@ -204,9 +202,3 @@ main {
 		margin-left: 5px;
 	}
 }
-
-
-
-
-
-
