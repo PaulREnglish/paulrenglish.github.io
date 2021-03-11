@@ -6,12 +6,6 @@ html{
 	font-size: 20px;
 }
 
-/* centers the webpage */
-/*body{
-	display: flex;
-	justify-content: center;
-}*/
-
 .container {
 	width: 1600px;
 	margin: 0 auto;
@@ -29,18 +23,12 @@ nav{
 	
 }
 
-
-
-
 nav > div{
 	display: flex;
-	
 }
-
 
 .navigation{
 	padding: 5px;
-	
 	margin: 5px;
 		
 }
@@ -48,7 +36,6 @@ nav > div{
 .navBorder{
 	border: 2px solid #777674;
 }
-
 
 .navigation > a{
 	text-decoration: none;
@@ -62,8 +49,6 @@ nav > div{
 	color: #000000;
 }
 
-
-
 /* title section*/
 header{
 	display: flex;
@@ -74,49 +59,26 @@ header{
 	margin: 0 25px;
 	background-image: url("titleBackground2.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
 }
-
-
-/*header > img{
-	position: absolute;
-	height: 100%;
-	z-index: -1;
-
-}*/
-
 
 header > div{
 	width: 750px;
 	color: #FEE6D3;
-	/*font-weight: bold;*/
-	
 }
-
-
 
 .titleBackgroundFooter{
 	display: flex;
 	justify-content: center;
 }
 
-
-
-
-
-
 h1{
 	font-size: 3.0rem;
 }
 
-
 /* About me section*/
-
 .aboutMe{
 	margin: 100px 100px;
 }
-
-
 
 h2{
 	margin: 0;
@@ -125,37 +87,26 @@ h2{
 
 
 /*Projects section*/
-
 main{
 	width: 95%;
 	margin: 0 auto;
 }
 
-
-
 .projectsSection > h2 {
 	text-align: center;
 	padding: 20px;
-
 }
-
-
-
 
 .projectsSection > div{
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-evenly;
-	
 }
-
 
 .project{
 	width: 240px;
 	margin: 30px 20px;
 }
-
-
 
 .projectImage{
 	height: 240px;
@@ -166,14 +117,12 @@ main{
 	margin: 0 auto;
 }
 
-
 .projectImage img{
 	display: block;
 	max-width: 240px;
 	max-height: 240px;
 	
 }
-
 
 
 /*Contact me section*/
@@ -192,7 +141,6 @@ main{
 
 
 
-
 @media only screen and (max-width: 1600px){
 	
 	.container{
@@ -202,13 +150,12 @@ main{
 
 }
 
+
 @media only screen and (max-width: 850px){
 	
 	html{
 		font-size: 13px;
 	}
-	
-	
 	
 	.navigation{
 		padding: 1px;
@@ -233,7 +180,6 @@ main{
 		margin: 30px;
 	}
 	
-	
 	.aboutMe{
 		margin: 70px 30px;
 	}
@@ -242,12 +188,9 @@ main{
 		font-size: 1.2rem;
 	}
 	
-	
 	main{
 		width: 100%;
 	}	
-	
-	
 	
 	.contactMe{
 		height: 70px;
@@ -256,14 +199,10 @@ main{
 
 
 
-
-@media only screen and (max-width: 300px){
-
-	
+@media only screen and (max-width: 300px){	
 	.aboutMe{
 		margin: 50px 20px;
 	}
-	
 	
 	.project{
 		margin: 30px 0;
@@ -276,7 +215,6 @@ main{
 	.contactMe > div{
 		margin-left: 5px;
 	}
-
 }
 
 
