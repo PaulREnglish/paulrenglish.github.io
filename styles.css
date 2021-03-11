@@ -1,0 +1,204 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 20px;
+}
+
+.container {
+	width: 1600px;
+	margin: 0 auto;
+}
+
+
+/* navbar section*/
+nav {
+	display: flex;
+	background: #E5E2DE;
+	height: 60px;
+	margin: 10px 0;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.navigation {
+	padding: 5px;
+	margin: 5px;
+		
+}
+
+.navBorder {
+	border: 2px solid #777674;
+}
+
+.navigation > a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* title section*/
+header {
+	display: flex;
+	height: 700px;
+	justify-content: center;
+	align-items: center;
+	margin: 0 25px;
+	background-image: url("titleBackground2.jpg");
+	background-size: cover;
+}
+
+header > div {
+	width: 750px;
+	color: #FEE6D3;
+}
+
+.titleBackgroundFooter {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.0rem;
+}
+
+/* About me section*/
+.aboutMe {
+	margin: 100px 100px;
+}
+
+h2 {
+	margin: 0;
+	font-size: 2.0rem;
+}
+
+
+/*Projects section*/
+main {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.projectsSection > h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+.projectsSection > div {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+}
+
+.project {
+	width: 240px;
+	margin: 30px 20px;
+}
+
+.projectImage {
+	height: 240px;
+	width: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projectImage img {
+	max-width: 240px;
+	max-height: 240px;
+	
+}
+
+
+/*Contact me section*/
+.contactMe {
+	display: flex;
+	background: #E5E2DE;
+	height: 100px;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contactMe > div {
+	margin-left: 30px;
+	font-size: 1.2rem;
+}
+
+
+
+@media only screen and (max-width: 1600px) {
+	
+	.container {
+		width: 100%;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 850px) {
+	
+	html {
+		font-size: 13px;
+	}
+	
+	.navigation {
+		padding: 1px;
+		margin: 1px;
+		
+	}
+
+	.navBorder {
+		border: 1px solid #777674;
+	}
+	
+	nav {
+		height: 30px;
+	}
+	
+	header {
+		margin: 0 5px;
+	}
+	
+	h1 {
+		font-size: 2.5rem;
+		margin: 30px;
+	}
+	
+	.aboutMe {
+		margin: 70px 30px;
+	}
+	
+	p {
+		font-size: 1.2rem;
+	}
+	
+	main {
+		width: 100%;
+	}	
+	
+	.contactMe {
+		height: 70px;
+	}
+}
+
+
+
+@media only screen and (max-width: 300px) {	
+	.aboutMe {
+		margin: 50px 20px;
+	}
+	
+	.project {
+		margin: 30px 0;
+	}
+	
+	.contactMe {
+		height: 120px;
+	}
+
+	.contactMe > div {
+		margin-left: 5px;
+	}
+}
