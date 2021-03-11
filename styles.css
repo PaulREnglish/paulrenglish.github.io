@@ -6,14 +6,9 @@ html{
 	font-size: 20px;
 }
 
-/* centers the webpage */
-body{
-	display: flex;
-	justify-content: center;
-}
-
-body > div{
-	width: 1500px;
+.container {
+	width: 1600px;
+	margin: 0 auto;
 }
 
 
@@ -23,21 +18,17 @@ nav{
 	background: #E5E2DE;
 	height: 60px;
 	margin: 10px 0;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	
 }
 
-
 nav > div{
 	display: flex;
-	
 }
-
 
 .navigation{
 	padding: 5px;
-	
 	margin: 5px;
 		
 }
@@ -46,55 +37,118 @@ nav > div{
 	border: 2px solid #777674;
 }
 
-.navSmallScreen{
-	display: none;
+.navigation > a{
+	text-decoration: none;
 }
 
+.navigation > a:visited{
+	color: #000000;
+}
 
+.navigation > a:link{
+	color: #000000;
+}
 
-/* title and about me section*/
+/* title section*/
 header{
 	display: flex;
-	/*height: 800px;*/
+	height: 700px;
 	justify-content: center;
 	align-items: center;
 	padding: 180px 0;
 	margin: 0 25px;
 	background-image: url("titleBackground2.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
 }
-
-
-/*header > img{
-	position: absolute;
-	height: 100%;
-	z-index: -1;
-
-}*/
-
 
 header > div{
 	width: 750px;
 	color: #FEE6D3;
-	/*font-weight: bold;*/
-	
 }
-
-h2{
-	margin: 0;
-}
-
 
 .titleBackgroundFooter{
 	display: flex;
 	justify-content: center;
 }
 
+h1{
+	font-size: 3.0rem;
+}
+
+/* About me section*/
+.aboutMe{
+	margin: 100px 100px;
+}
+
+h2{
+	margin: 0;
+	font-size: 2.0rem;
+}
+
+
+/*Projects section*/
+main{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.projectsSection > h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+.projectsSection > div{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+}
+
+.project{
+	width: 240px;
+	margin: 30px 20px;
+}
+
+.projectImage{
+	height: 240px;
+	width: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.projectImage img{
+	display: block;
+	max-width: 240px;
+	max-height: 240px;
+	
+}
+
+
+/*Contact me section*/
+.contactMe{
+	display: flex;
+	background: #E5E2DE;
+	height: 100px;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contactMe > div{
+	margin-left: 30px;
+	font-size: 1.2rem;
+}
 
 
 
+@media only screen and (max-width: 1600px){
+	
+	.container{
+		width: 100%;
+	}
 
+
+}
 
 
 @media only screen and (max-width: 850px){
@@ -103,21 +157,7 @@ h2{
 		font-size: 13px;
 	}
 	
-	.navLargeScreen{
-		display: none;
-	}
-	.navSmallScreen{
-		display: flex;
-		
-	}
-	
-	body > div{
-		width: 100%;
-	}
-	
-	
 	.navigation{
-		height: 25px;
 		padding: 1px;
 		margin: 1px;
 		
@@ -135,16 +175,50 @@ h2{
 		margin: 0 5px;
 	}
 	
-	header > div{
-		width: 200px;
+	h1{
+		font-size: 2.5rem;
+		margin: 30px;
 	}
 	
-	
+	.aboutMe{
+		margin: 70px 30px;
+	}
 	
 	p{
 		font-size: 1.2rem;
 	}
 	
+	main{
+		width: 100%;
+	}	
 	
+	.contactMe{
+		height: 70px;
+	}
 }
+
+
+
+@media only screen and (max-width: 300px){	
+	.aboutMe{
+		margin: 50px 20px;
+	}
+	
+	.project{
+		margin: 30px 0;
+	}
+	
+	.contactMe{
+		height: 120px;
+	}
+
+	.contactMe > div{
+		margin-left: 5px;
+	}
+}
+
+
+
+
+
 
