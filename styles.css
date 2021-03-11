@@ -1,8 +1,8 @@
-*{
+* {
 	box-sizing: border-box;
 }
 
-html{
+html {
 	font-size: 20px;
 }
 
@@ -13,7 +13,7 @@ html{
 
 
 /* navbar section*/
-nav{
+nav {
 	display: flex;
 	background: #E5E2DE;
 	height: 60px;
@@ -23,71 +23,59 @@ nav{
 	
 }
 
-nav > div{
-	display: flex;
-}
 
-.navigation{
+.navigation {
 	padding: 5px;
 	margin: 5px;
 		
 }
 
-.navBorder{
+.navBorder {
 	border: 2px solid #777674;
 }
 
-.navigation > a{
+.navigation > a {
 	text-decoration: none;
-}
-
-.navigation > a:visited{
-	color: #000000;
-}
-
-.navigation > a:link{
 	color: #000000;
 }
 
 /* title section*/
-header{
+header {
 	display: flex;
 	height: 700px;
 	justify-content: center;
 	align-items: center;
-	padding: 180px 0;
 	margin: 0 25px;
 	background-image: url("titleBackground2.jpg");
 	background-size: cover;
 }
 
-header > div{
+header > div {
 	width: 750px;
 	color: #FEE6D3;
 }
 
-.titleBackgroundFooter{
-	display: flex;
-	justify-content: center;
+.titleBackgroundFooter {
+	text-align: center;
 }
 
-h1{
+h1 {
 	font-size: 3.0rem;
 }
 
 /* About me section*/
-.aboutMe{
+.aboutMe {
 	margin: 100px 100px;
 }
 
-h2{
+h2 {
 	margin: 0;
 	font-size: 2.0rem;
 }
 
 
 /*Projects section*/
-main{
+main {
 	width: 95%;
 	margin: 0 auto;
 }
@@ -97,28 +85,26 @@ main{
 	padding: 20px;
 }
 
-.projectsSection > div{
+.projectsSection > div {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-evenly;
 }
 
-.project{
+.project {
 	width: 240px;
 	margin: 30px 20px;
 }
 
-.projectImage{
+.projectImage {
 	height: 240px;
 	width: 240px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
 }
 
-.projectImage img{
-	display: block;
+.projectImage img {
 	max-width: 240px;
 	max-height: 240px;
 	
@@ -126,7 +112,7 @@ main{
 
 
 /*Contact me section*/
-.contactMe{
+.contactMe {
 	display: flex;
 	background: #E5E2DE;
 	height: 100px;
@@ -134,16 +120,16 @@ main{
 	flex-direction: column;
 }
 
-.contactMe > div{
+.contactMe > div {
 	margin-left: 30px;
 	font-size: 1.2rem;
 }
 
 
 
-@media only screen and (max-width: 1600px){
+@media only screen and (max-width: 1600px) {
 	
-	.container{
+	.container {
 		width: 100%;
 	}
 
@@ -151,74 +137,68 @@ main{
 }
 
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px) {
 	
-	html{
+	html {
 		font-size: 13px;
 	}
 	
-	.navigation{
+	.navigation {
 		padding: 1px;
 		margin: 1px;
 		
 	}
 
-	.navBorder{
+	.navBorder {
 		border: 1px solid #777674;
 	}
 	
-	nav{
+	nav {
 		height: 30px;
 	}
 	
-	header{
+	header {
 		margin: 0 5px;
 	}
 	
-	h1{
+	h1 {
 		font-size: 2.5rem;
 		margin: 30px;
 	}
 	
-	.aboutMe{
+	.aboutMe {
 		margin: 70px 30px;
 	}
 	
-	p{
+	p {
 		font-size: 1.2rem;
 	}
 	
-	main{
+	main {
 		width: 100%;
 	}	
 	
-	.contactMe{
+	.contactMe {
 		height: 70px;
 	}
 }
 
 
 
-@media only screen and (max-width: 300px){	
-	.aboutMe{
+@media only screen and (max-width: 300px) {	
+	.aboutMe {
 		margin: 50px 20px;
 	}
 	
-	.project{
+	.project {
 		margin: 30px 0;
 	}
 	
-	.contactMe{
+	.contactMe {
 		height: 120px;
 	}
 
-	.contactMe > div{
+	.contactMe > div {
 		margin-left: 5px;
 	}
 }
-
-
-
-
-
-
