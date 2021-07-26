@@ -47,11 +47,6 @@ header {
 	margin: 0 25px;
 }
 
-header > div {
-	width: 750px;
-	color: #FEE6D3;
-}
-
 .titleImage {
 	width: 90%;
 	margin: 5px auto;
