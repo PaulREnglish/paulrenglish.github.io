@@ -62,10 +62,6 @@ header {
 	width: 90%;
 }
 
-h1 {
-	font-size: 3.0rem;
-}
-
 /* About me section*/
 .aboutMe {
 	margin: 30px 100px;
@@ -165,12 +161,7 @@ main {
 	}
 	
 	header {
-		margin: 0 5px;
-	}
-	
-	h1 {
-		font-size: 2.5rem;
-		margin: 30px;
+		margin: 20px 0;
 	}
 	
 	.aboutMe {
@@ -189,8 +180,6 @@ main {
 		height: 70px;
 	}
 }
-
-
 
 @media only screen and (max-width: 300px) {	
 	.aboutMe {
