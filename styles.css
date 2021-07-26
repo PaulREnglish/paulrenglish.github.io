@@ -42,12 +42,9 @@ nav {
 /* title section*/
 header {
 	display: flex;
-	height: 700px;
 	justify-content: center;
 	align-items: center;
 	margin: 0 25px;
-	background-image: url("titleImage.png");
-	background-size: cover;
 }
 
 header > div {
@@ -55,7 +52,16 @@ header > div {
 	color: #FEE6D3;
 }
 
-.titleBackgroundFooter {
+.titleImage {
+	width: 90%;
+	margin: 5px auto;
+}
+
+.titleImage > img {
+	width: 100%;
+}
+
+.titleImageFooter {
 	text-align: center;
 }
 
