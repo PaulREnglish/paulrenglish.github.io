@@ -76,6 +76,10 @@ h1 {
 	margin: 100px 100px;
 }
 
+#aboutMe {
+	text-align: center;
+}
+
 h2 {
 	margin: 0;
 	font-size: 2.0rem;
