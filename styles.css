@@ -54,10 +54,13 @@ h1 {
 .titleImage {
 	width: 90%;
 	margin: 5px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .titleImage > img {
-	width: 100%;
+	width: 90%;
 }
 
 .titleImageFooter {
